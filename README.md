@@ -1,0 +1,2 @@
+# loongstatic
+js,css
