@@ -17,7 +17,7 @@ $(function() {
         $('#feature_third').css('display','flex');
     });
     $("#more").click(function(){
-        $('#gmae_list_1, #gmae_list_3, #game_list_4, #game_list_5, #game_list_6, #gmae_list_7').css('display', 'block');
+        $('#game_list_1, #game_list_3, #game_list_4, #game_list_5, #game_list_6, #game_list_7,#game_list_8').css('display', 'block');
         $('#card_more').remove();
     });
 });
