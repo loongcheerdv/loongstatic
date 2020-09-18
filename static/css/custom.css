@@ -62,22 +62,6 @@ body {
 	height: 100%;
 }
 
-.nav-bg-img {
-	background: url(/static/pro_img/logo/yemei1440X130-2.jpg) no-repeat center center;
-	max-width: 100%;
-	background-size: cover;
-	height: 74px;
-}
-
-@media screen and (max-width:991px){
-	.nav-bg-img {
-		background: url(/static/pro_img/logo/logo-head.jpg) no-repeat center center;
-		max-width: 100%;
-		background-size: cover;
-		height: 56px;
-	}
-
-}
 
 .nav_box{
 	box-shadow: rgba(55,55,55,0.5) 0px 1px 3px;
@@ -476,27 +460,27 @@ body {
         display: none;
     }
     #carousel_tes .carousel-inner .carousel-bg1{
-        background: url(/static/pro_img/carousel/撸撸塔-1920X680.jpg) no-repeat center center;
+        background: url(https://cdn.jsdelivr.net/gh/loongcheerdv/loongstatic@master/static/pro_img/carousel/撸撸塔-1920X680.jpg) no-repeat center center;
         width: 100%;
 		height: 500px;
 		background-size: cover;
 
     }
     #carousel_tes .carousel-inner .carousel-bg2{
-        background: url(/static/pro_img/carousel/Hero-summoner-1920X680.jpg) no-repeat center center;
+        background: url(https://cdn.jsdelivr.net/gh/loongcheerdv/loongstatic@master/static/pro_img/carousel/Hero-summoner-1920X680.jpg) no-repeat center center;
         width: 100%;
 		height: 500px;
 		background-size: cover;
     }
 
 	#carousel_tes .carousel-inner .carousel-bg3{
-        background: url(/static/pro_img/carousel/sap1920.jpg) no-repeat center center;
+        background: url(https://cdn.jsdelivr.net/gh/loongcheerdv/loongstatic@master/static/pro_img/carousel/sap1920.jpg) no-repeat center center;
         width: 100%;
 		height: 500px;
 		background-size: cover;
     }
 	#carousel_tes .carousel-inner .carousel-bg4{
-		background: url(/static/pro_img/carousel/塔防典藏-1920X680.jpg) no-repeat center center;
+		background: url(https://cdn.jsdelivr.net/gh/loongcheerdv/loongstatic@master/static/pro_img/carousel/塔防典藏-1920X680.jpg) no-repeat center center;
 		background-size: cover;
         width: 100%;
         height: 500px;
@@ -969,10 +953,19 @@ body {
 	color: #000;
 }
 .news_tit li a:hover{
-	color: #000;
+	color: #ffffff;
 }
 
 .news_tit ul li.select{
+	background: rgb(61, 133, 198);
+	border-bottom-color: #fff;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	padding: 0;
+	font-weight: bolder;
+}
+
+.news_tit ul li:hover{
 	background: rgb(61, 133, 198);
 	border-bottom-color: #fff;
 	border-left: 1px solid #eee;
@@ -2277,3 +2270,39 @@ Section Title Styles
 }
 
 /*load*/
+
+.news_img_q{
+	margin-bottom:20px;
+	display: block;
+}
+
+.pagination_avtive{
+	width: 100%;
+    height: 100%;
+    display: block;
+    padding: 5px 15px;
+    background: #3d85c6;
+    color: white;
+    border: 1px solid #3d85c6;
+    border-radius: 4px;
+}
+
+.pagination_a{
+	width: 100%;
+    height: 100%;
+    display: block;
+    padding: 5px 15px;
+    color: #3d85c6;
+}
+
+.pagination_a:hover{
+    background: #3d85c6;
+    color: white;
+    border: 1px solid #3d85c6;
+    border-radius: 4px;
+}
+
+.pagination_li{
+	margin: 2px;
+}
+
